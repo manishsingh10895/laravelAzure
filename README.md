@@ -1,2 +1,0 @@
-# laravelAzure
-Trial
