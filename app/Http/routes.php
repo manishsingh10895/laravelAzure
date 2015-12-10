@@ -12,22 +12,13 @@
 * ;ok;lk
 
 */
-Route::get('cats',function()
-{
-	return 'All cats';
-});
-
-Route::get('/',function(){
-	return redirect('cats');
-});
-
-
-Route::get('about',function(){
-	return view('about')->with('numberOfCats',9000);
-	});
-
-Route::get('cats/{id}',function($id){
-	return sprintf('Cat #%s',$id);
-	})->where('id','[0-9]+');
-
 Route::get('contact','PagesController@contact');
+Route::get('home','PagesController@home');
+Route::get('/','PagesController@home');
+Route::get('signup','UserController@signup');
+Route::get('login/{user}',function($user)
+	{
+		return view('login')->with('user',$user);
+	});
+Route::get('login','UserController@login');
+Route::get('about','PagesController@about');

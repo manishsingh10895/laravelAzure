@@ -2,7 +2,7 @@
 
 @section('content')
     @forelse($contacts as $contact)
-    {{$contact}}
+    <br>{{$contact}}</br>
     @empty
         No Contact
     @endforelse

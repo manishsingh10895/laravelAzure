@@ -19,7 +19,7 @@
             "database"
         ],
         "psr-4": {
-            "Furbook\\": "app/"
+            "Laravel\\": "app/"
         }
     },
     "autoload-dev": {

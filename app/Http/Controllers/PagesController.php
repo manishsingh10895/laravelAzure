@@ -1,11 +1,11 @@
 <?php
 
-namespace Furbook\Http\Controllers;
+namespace Laravel\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use Furbook\Http\Requests;
-use Furbook\Http\Controllers\Controller;
+use Laravel\Http\Requests;
+use Laravel\Http\Controllers\Controller;
 
 class PagesController extends Controller
 {
@@ -15,8 +15,21 @@ class PagesController extends Controller
     	$number = 7835851975;
 
     	$contacts = [
-    		
+    		'Manish',
+    		'Andy',
+    		'Enrique'
     	];
-    	return view('contact',compact('contacts'));
+    	return redirect('/');
     }
+
+    public function home()
+    {
+    	return view('home');
+    }
+
+    public function about(){
+    	return view('about');
+    }
+
+
 }

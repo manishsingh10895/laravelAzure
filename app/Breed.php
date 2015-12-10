@@ -1,4 +1,4 @@
-<?php namespace Furbook;
+<?php namespace Laravel;
 use Illuminate\Database\Eloquent\Model;
 
 class Breed extends Model
@@ -7,6 +7,6 @@ class Breed extends Model
 	
 	public function cats()
 	{
-		return $this->hasMany('Furbook\Cat');
+		return $this->hasMany('Laravel\Cat');
 	}
 }

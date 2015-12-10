@@ -1,6 +1,6 @@
 <?php
 
-namespace Furbook\Http;
+namespace Laravel\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -13,11 +13,11 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
-        \Furbook\Http\Middleware\EncryptCookies::class,
+        \Laravel\Http\Middleware\EncryptCookies::class,
         \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-        \Furbook\Http\Middleware\VerifyCsrfToken::class,
+        \Laravel\Http\Middleware\VerifyCsrfToken::class,
     ];
 
     /**
@@ -26,8 +26,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \Furbook\Http\Middleware\Authenticate::class,
+        'auth' => \Laravel\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \Furbook\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \Laravel\Http\Middleware\RedirectIfAuthenticated::class,
     ];
 }

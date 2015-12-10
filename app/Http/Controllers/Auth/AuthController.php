@@ -1,10 +1,10 @@
 <?php
 
-namespace Furbook\Http\Controllers\Auth;
+namespace Laravel\Http\Controllers\Auth;
 
-use Furbook\User;
+use Laravel\User;
 use Validator;
-use Furbook\Http\Controllers\Controller;
+use Laravel\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

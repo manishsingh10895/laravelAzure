@@ -1,6 +1,6 @@
 <?php
 
-namespace Furbook\Jobs;
+namespace Laravel\Jobs;
 
 use Illuminate\Bus\Queueable;
 

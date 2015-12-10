@@ -1,6 +1,6 @@
 <?php
 
-namespace Furbook\Providers;
+namespace Laravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Furbook\Http\Controllers\Auth;
+namespace Laravel\Http\Controllers\Auth;
 
-use Furbook\Http\Controllers\Controller;
+use Laravel\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

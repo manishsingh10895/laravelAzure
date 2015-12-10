@@ -40,7 +40,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Hello, there are over {{ $numberOfCats}} cats on this site </div>
+                <div class="title">Hello, there are over {{$numberOfCats}} groups in this site </div>
             </div>
         </div>
     </body>

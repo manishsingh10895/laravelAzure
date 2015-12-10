@@ -140,10 +140,10 @@ return [
         /*
          * Application Service Providers...
          */
-        Furbook\Providers\AppServiceProvider::class,
-        Furbook\Providers\AuthServiceProvider::class,
-        Furbook\Providers\EventServiceProvider::class,
-        Furbook\Providers\RouteServiceProvider::class,
+        Laravel\Providers\AppServiceProvider::class,
+        Laravel\Providers\AuthServiceProvider::class,
+        Laravel\Providers\EventServiceProvider::class,
+        Laravel\Providers\RouteServiceProvider::class,
 
     ],
 

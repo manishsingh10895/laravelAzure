@@ -1,6 +1,6 @@
 <?php
 
-namespace Furbook\Exceptions;
+namespace Laravel\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Furbook\Http\Requests;
+namespace Laravel\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

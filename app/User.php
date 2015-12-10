@@ -1,6 +1,6 @@
 <?php
 
-namespace Furbook;
+namespace Laravel;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
